@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Script/BarraVida.gd" type="Script" id=1]
+
+[node name="BarraVida" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="ColorRectFundo" type="ColorRect" parent="."]
+margin_top = -12.0
+margin_right = 204.0
+margin_bottom = 12.0
+color = Color( 0.545098, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRectFrente" type="ColorRect" parent="."]
+margin_left = 2.0
+margin_top = -10.0
+margin_right = 202.0
+margin_bottom = 10.0
+color = Color( 1, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

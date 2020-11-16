@@ -1,0 +1,178 @@
+[gd_scene load_steps=87 format=2]
+
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_010.png" type="Texture" id=1]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_003.png" type="Texture" id=2]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_009.png" type="Texture" id=3]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_007.png" type="Texture" id=4]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_000.png" type="Texture" id=5]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_005.png" type="Texture" id=6]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_002.png" type="Texture" id=7]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_004.png" type="Texture" id=8]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_008.png" type="Texture" id=9]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_001.png" type="Texture" id=10]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_011.png" type="Texture" id=11]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Idle/Wraith_02_Idle_006.png" type="Texture" id=12]
+[ext_resource path="res://Script/Espectro.gd" type="Script" id=13]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_000.png" type="Texture" id=14]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_001.png" type="Texture" id=15]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_002.png" type="Texture" id=16]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_003.png" type="Texture" id=17]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_004.png" type="Texture" id=18]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_005.png" type="Texture" id=19]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_006.png" type="Texture" id=20]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_007.png" type="Texture" id=21]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_009.png" type="Texture" id=22]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_008.png" type="Texture" id=23]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_010.png" type="Texture" id=24]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Hurt/Wraith_02_Hurt_011.png" type="Texture" id=25]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_007.png" type="Texture" id=26]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_009.png" type="Texture" id=27]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_011.png" type="Texture" id=28]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_005.png" type="Texture" id=29]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_004.png" type="Texture" id=30]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_006.png" type="Texture" id=31]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_010.png" type="Texture" id=32]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_003.png" type="Texture" id=33]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_002.png" type="Texture" id=34]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_008.png" type="Texture" id=35]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_000.png" type="Texture" id=36]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_001.png" type="Texture" id=37]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_000.png" type="Texture" id=38]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_007.png" type="Texture" id=39]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_006.png" type="Texture" id=40]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_012.png" type="Texture" id=41]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_011.png" type="Texture" id=42]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_005.png" type="Texture" id=43]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_009.png" type="Texture" id=44]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_008.png" type="Texture" id=45]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_003.png" type="Texture" id=46]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_002.png" type="Texture" id=47]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_014.png" type="Texture" id=48]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_010.png" type="Texture" id=49]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_013.png" type="Texture" id=50]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_001.png" type="Texture" id=51]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Dying/Wraith_02_Dying_004.png" type="Texture" id=52]
+[ext_resource path="res://Scene/BarraVida.tscn" type="PackedScene" id=53]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_010.png" type="Texture" id=54]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_011.png" type="Texture" id=55]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_001.png" type="Texture" id=56]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_002.png" type="Texture" id=57]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_003.png" type="Texture" id=58]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_004.png" type="Texture" id=59]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_006.png" type="Texture" id=60]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_007.png" type="Texture" id=61]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_008.png" type="Texture" id=62]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_009.png" type="Texture" id=63]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_000.png" type="Texture" id=64]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Attacking/Wraith_02_Attack_005.png" type="Texture" id=65]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_000.png" type="Texture" id=66]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_001.png" type="Texture" id=67]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_002.png" type="Texture" id=68]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_003.png" type="Texture" id=69]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_004.png" type="Texture" id=70]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_008.png" type="Texture" id=71]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_009.png" type="Texture" id=72]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_017.png" type="Texture" id=73]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_011.png" type="Texture" id=74]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_015.png" type="Texture" id=75]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_005.png" type="Texture" id=76]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_007.png" type="Texture" id=77]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_006.png" type="Texture" id=78]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_010.png" type="Texture" id=79]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_012.png" type="Texture" id=80]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_013.png" type="Texture" id=81]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_014.png" type="Texture" id=82]
+[ext_resource path="res://Sprite/Espectro/PNG/Wraith_02/PNG Sequences/Casting Spells/Wraith_02_Casting Spells_016.png" type="Texture" id=83]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 38 ), ExtResource( 51 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 52 ), ExtResource( 43 ), ExtResource( 40 ), ExtResource( 39 ), ExtResource( 45 ), ExtResource( 44 ), ExtResource( 49 ), ExtResource( 42 ), ExtResource( 41 ), ExtResource( 50 ), ExtResource( 48 ) ],
+"loop": false,
+"name": "Morrendo",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 76 ), ExtResource( 78 ), ExtResource( 77 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 79 ), ExtResource( 74 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 75 ), ExtResource( 83 ), ExtResource( 73 ) ],
+"loop": true,
+"name": "LancandoMagia",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 10 ), ExtResource( 7 ), ExtResource( 2 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 12 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 1 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "Parado",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 36 ), ExtResource( 37 ), ExtResource( 34 ), ExtResource( 33 ), ExtResource( 30 ), ExtResource( 29 ), ExtResource( 31 ), ExtResource( 26 ), ExtResource( 35 ), ExtResource( 27 ), ExtResource( 32 ), ExtResource( 28 ) ],
+"loop": true,
+"name": "Andando",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"loop": false,
+"name": "Dano",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 65 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 54 ), ExtResource( 55 ) ],
+"loop": true,
+"name": "Atacando",
+"speed": 13.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 12.2399
+height = 41.3808
+
+[sub_resource type="Animation" id=3]
+resource_name = "FlutuaLoop"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 2.14355, 1, 0.707107 ),
+"update": 0,
+"values": [ Vector2( 0, -30 ), Vector2( 0, -60 ), Vector2( 0, -30 ) ]
+}
+
+[node name="Espectro2" type="KinematicBody2D"]
+position = Vector2( 0, -175 )
+collision_layer = 4
+script = ExtResource( 13 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 0, -30 )
+scale = Vector2( 0.25, 0.25 )
+frames = SubResource( 1 )
+animation = "Atacando"
+frame = 11
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -33.977 )
+shape = SubResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "FlutuaLoop"
+anims/FlutuaLoop = SubResource( 3 )
+
+[node name="RayCast" type="RayCast2D" parent="."]
+
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 0, -24.806 )
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( 0, -34 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 2 )
+
+[node name="BarraVida" parent="." instance=ExtResource( 53 )]
+position = Vector2( -25, -118.1 )
+scale = Vector2( 0.25, 0.25 )
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
